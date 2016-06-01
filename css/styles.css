@@ -1,0 +1,82 @@
+/** Header **/
+#header-nav {
+    background-color: red;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant Name */
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 15px;
+}
+
+#main-content {
+    background-color: lightgray;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    border: 2px solid red;
+    overflow: hidden;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #main-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    } 
+    
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+    }
+}
